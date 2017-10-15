@@ -1,4 +1,3 @@
-var string = "Hello"
 
 function shout(string) {
   return string.toUpperCase()
@@ -20,6 +19,6 @@ function sayHiToGrandma(string) {
   return string
 }
 
-if ('hello') {
+if (logWhisper()) {
   console.log("I can't hear you!")
 }
