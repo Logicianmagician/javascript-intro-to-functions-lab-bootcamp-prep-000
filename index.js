@@ -1,4 +1,3 @@
-
 function shout(string) {
   return string.toUpperCase()
 }
@@ -19,6 +18,14 @@ function sayHiToGrandma(string) {
   return string
 }
 
-if sayHiToGrandma('hello') {
+if sayHiToGrandma("hello") {
   console.log("I can\'t hear you!")
+}
+
+if sayHiToGrandma("HELLO") {
+  console.log("YES INDEED!")
+}
+
+if sayHiToGrandma("I love you, Grandma.") {
+  console.log("I love you, too")
 }
