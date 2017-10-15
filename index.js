@@ -19,6 +19,6 @@ function sayHiToGrandma(string) {
   return string
 }
 
-if sayHiToGrandma(string) === "hello" {
+if sayHiToGrandma() === "hello" {
   console.log ("I can\'t hear you")
 }
