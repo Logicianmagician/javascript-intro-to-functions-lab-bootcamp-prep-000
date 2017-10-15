@@ -18,6 +18,6 @@ function sayHiToGrandma(string) {
   return string
 }
 
-if (string = "hello"){
-  console.log("I can\'t hear you!")
+function sayHiToGrandma("hello") {
+  return "I can\'t hear you!"
 }
